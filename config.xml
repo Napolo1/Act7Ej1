@@ -15,7 +15,8 @@
   <plugin name="cordova-plugin-device"/>
   <feature name="Accelerometer">
     <param name="android-package" value="org.apache.cordova.AccelListener" />
-  </feature>  <access origin="*" />
+  </feature>  
+  <access origin="*" />
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
   <allow-intent href="tel:*" />
