@@ -13,8 +13,9 @@
   <plugin name="cordova-plugin-whitelist" spec="1.3.4" />
   <plugin name="cordova-plugin-dialogs"/> 
   <plugin name="cordova-plugin-device"/>
-  <plugin name="Accelerometer" value="org.apache.cordova.AccelListener" />
-  <access origin="*" />
+  <feature name="Accelerometer">
+    <param name="android-package" value="org.apache.cordova.AccelListener" />
+  </feature>  <access origin="*" />
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
   <allow-intent href="tel:*" />
